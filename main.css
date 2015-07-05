@@ -2,13 +2,19 @@
 
 p{font-family:AngsanaUPC;font-size:25px; text-indent:30px}
 
-.main{background-color:rgb(218, 218, 218);margin-left:250px; margin-top:5px; padding:15px; border-radius:5px;font-family:AngsanaUPC;font-size:22px;}
+.main{background-color:white; border:1px solid #ddd;margin-left:250px; margin-top:5px; padding:15px; border-radius:5px;font-family:AngsanaUPC;font-size:22px; box-shadow:1px 1px 1px 0px rgba(0,0,0,0.25)}
 .main h1{text-align:center; font-family:AngsanaUPC}
 .main h2{text-align:center}
 
-.header{border-bottom:1px solid grey}
-.header img{float:right;height:175px}
-.main-menu{float:left;width:250px}
+.header{border-bottom:0px solid grey; margin: 0 0 0 0; text-shadow:2px 2px 1px rgba(56, 229, 176, 1);}
+.header img{float:right;height:175px; margin:0 1px; border:1px solid #ccc; border-radius:5px}
+
+.main-menu{float:left;width:250px;}
+
+.menu {margin:0; padding:0 10px 0 0}
+.menu li {list-style:none; margin:5px 0}
+.menu a {text-decoration: none; background:#fff; display:block; padding:8px 15px;box-shadow:1px 1px 1px 0px rgba(0,0,0,0.25); border-radius:5px; font-weight:bold; color:#666; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15); }
+.menu a:hover {background:#000; color:#fff}
 
 body, .thai-font {font-family:AngsanaUPC}
 .english-font {font-family:Helvetica}
@@ -18,3 +24,4 @@ table td {padding:2px 10px; border:0px solid grey; font-size:25px}
 .pictures p {text-indent:0; font-size: 25px}
 .pictures img{width:400px}
 .otherplace img{width:400px}
+body {background:url('style/bg.png')}
