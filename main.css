@@ -7,7 +7,7 @@ p{font-family:AngsanaUPC;font-size:25px; text-indent:30px}
 .main h2{text-align:center}
 
 .header{border-bottom:0px solid grey; margin: 0 0 0 0; text-shadow:2px 2px 1px rgba(56, 229, 176, 1); color:#F80}
-.header img{float:right;height:175px; margin:0 1px; border:1px solid #ccc; border-radius:5px}
+.header img{float:right;height:175px;width:171px; margin:0 1px; border:1px solid #ccc; border-radius:5px}
 
 .main-menu{float:left;width:250px;}
 
@@ -24,12 +24,7 @@ table td {padding:2px 10px; border:0px solid grey; font-size:25px}
 .pictures p {text-indent:0; font-size: 25px}
 .pictures img{width:400px}
 .otherplace img{width:400px}
-body {background:url('style/bg.png'); width:1200px; margin:15px auto 20px;
-	background:
-radial-gradient(black 15%, transparent 16%) 0 0,
-radial-gradient(black 15%, transparent 16%) 8px 8px,
-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-background-color:#282828;
-background-size:16px 16px;
+body {width:1200px; margin:15px auto 20px;background:url('style/dark_wood.png');
 	}
+table td .indy {font-family:Helvetica;font-size:17px;color:chocolate;}
+table td .geo { font-family:Helvetica;font-size:17;color:darksalmon;}
