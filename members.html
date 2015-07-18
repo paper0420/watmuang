@@ -1,7 +1,11 @@
+<!DOCTYPE html>
 <html> 
 <head>
     <title>Wat Muang</title>
     <link rel="stylesheet" href="main.css" />
+    
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="js/magnific-popup/magnific-popup.css">
 </head>
 <body>
     <div class="header">
@@ -120,7 +124,7 @@
                     <td>แก้วสุ</td>
                     <td>56011095</td>
                      
-                    <td><a class="geo" href="img/pom%20(1).jpg">THAI-GEO</a></td>
+                    <td><a class="geo" href="img/pom%20(1).jpg" >THAI-GEO</a></td>
                      <td><a class="indy" href="img/indipom.jpg">INDY</a></td>
                 </tr>
                  <tr>
@@ -147,8 +151,8 @@
                     <td>อริยจินดาสกุล</td>
                     <td>56011131</td>
                      
-                    <td><a class="geo" href=>THAI-GEO</a></td>
-                       <td><a class="indy" href=>INDY</a></td>
+                    <td><a class="geo" href="img/james.jpg">THAI-GEO</a></td>
+                       <td><a class="indy" href="img/indijames.jpg">INDY</a></td>
                 </tr>
                   <tr>
                     <td>14. นาย</td>
@@ -156,8 +160,8 @@
                     <td>เทียมหิรัณย์โสภิต</td>
                     <td>56011155</td>
                       
-                    <td><a class="geo" href=>THAI-GEO</a></td>
-                      <td><a class="indy" href=>INDY</a></td>
+                    <td><a class="geo" href="img/wee.jpg">THAI-GEO</a></td>
+                      <td><a class="indy" href="img/indiwee.jpg">INDY</a></td>
                 </tr>
                   <tr>
                     <td>15. นาย</td>
@@ -166,7 +170,7 @@
                     <td>56011238</td>
                       
                     <td><a class="geo" href="img/mos.jpg">THAI-GEO</a></td>
-                      <td><a class="indy" href=>INDY</a></td>
+                      <td><a class="indy" href="img/indimos.jpg">INDY</a></td>
                 </tr>
                   <tr>
                     <td>16. นาย</td>
@@ -174,8 +178,8 @@
                     <td>รัตนภาค</td>
                     <td>56011314</td>
                      
-                    <td><a class="geo" href=>THAI-GEO</a></td>
-                       <td><a class="indy" href=>INDY</a></td>
+                    <td><a class="geo" href="img/por.jpg">THAI-GEO</a></td>
+                       <td><a class="indy" href="img/indipor.jpg">INDY</a></td>
                 </tr>
                   <tr>
                     <td>17. นาย</td>
@@ -198,5 +202,16 @@
        
     </div>
         
+    <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+
+    <!-- Magnific Popup core JS file -->
+    <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+          $('.geo,.indy').magnificPopup({type:'image'});
+        });
+    </script>
 </body>    
 <html>
